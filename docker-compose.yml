@@ -12,7 +12,7 @@ services:
     depends_on:
       - nexus
   nexus:
-    image: sonatype/nexus3:3.13.0
+    image: sonatype/nexus3:3.21.1
     volumes:
       - ./.state/nexus/data:/nexus-data
     ports:
